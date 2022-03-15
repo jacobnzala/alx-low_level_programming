@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-#include <stdio.h>
 =======
 >>>>>>> 2324364d565bcdd4bab4e6b2349d3d56e36723c1
 #include "_putchar.h"
