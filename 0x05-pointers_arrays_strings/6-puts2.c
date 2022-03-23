@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- **puts2 -change value using the pointer address 
+ **puts2-change value using the pointer address 
  **@str: stores the input
  */
 
