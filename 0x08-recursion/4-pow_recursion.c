@@ -1,19 +1,23 @@
 #include "main.h"
 /**
-*main - check the code
-*@x: int
-*@y: int
-*Return: Always 0.
-*/
-
-int test(x, y){
-	if (y > 0)
-		return -1;
+ *_pow_recursion - check the code.
+ *@x: character
+ *@y: character
+ * Return: Always 0.
+ */
+int _pow_recursion(int x, int y)
+{
+if (y < 0)
+{
+return (-1);
 }
-
-int main (void)
-	x = 10;
-	y = 2;
-	pow(x, y);
-	printf("the power is %d\n", pow);
-
+if (y == 0)
+{
+return (1);
+}
+if (y == 1)
+{
+return (x);
+}
+return (x * _pow_recursion(x, --y));
+}
