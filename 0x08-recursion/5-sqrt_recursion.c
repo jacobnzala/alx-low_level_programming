@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * write a function that prints the natural square root of a number
- * else just return 0
- * that should do it for now 
+ *sqrt_1 - check the code.
+ *@n: character
+ *@c: character
+ * Return: Always 0.
  */
 int sqrt_1(int n, int c)
 {
