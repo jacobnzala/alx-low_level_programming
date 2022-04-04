@@ -10,9 +10,8 @@
 
 int main (void)
 {
-	char jacob1[] = "students";
+	char jacob1[] = "Holberton School!";
 	char *p;
-	putchar(jacob1);
 	p= strdup (jacob1);
 
 	if (p == NULL)
