@@ -1,15 +1,10 @@
 #include <stdio.h>
 
 void stat(void) __attribute__ ((constructor));
-
 /**
- *
- *  * stat - prints a sentence before the main
- *
- *   * function is executed
- *
- *    */
-
+ * stat - prints a sentence before the main
+ * function is executed
+ */
 void stat(void)
 
 {
