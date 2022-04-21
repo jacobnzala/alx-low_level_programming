@@ -3,18 +3,12 @@
 #include <stdlib.h>
 
 #include <string.h>
-
 /**
- *
- * * add_node - prints list
- *
- * * @head: pointer
- *
- * * @str: string pointer
- *
- * * Return: pointer
- *
- * */
+* add_node - prints list
+* @head: pointer
+* @str: string pointer
+* Return: pointer
+*/
 
 list_t *add_node(list_t **head, const char *str)
 
